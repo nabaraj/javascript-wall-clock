@@ -1,0 +1,180 @@
+.clock {
+  border-radius: 50%;
+  background: white;
+  border: 2px solid black;
+  width: 300px;
+  height: 300px;
+  position: relative; }
+
+.numbers {
+  transform: rotate(90deg); }
+
+.number {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%) rotate(30deg); }
+  .number span {
+    transform-origin: 50% 50%;
+    display: block;
+    padding: 5px; }
+
+.number-1 {
+  text-align: center;
+  line-height: 20px;
+  font-size: 1.2rem;
+  transform: translateY(-50%) rotate(0deg);
+  top: 50%; }
+  .number-1 span {
+    transform: rotate(270deg); }
+
+.number-2 {
+  text-align: center;
+  line-height: 20px;
+  font-size: 1.2rem;
+  transform: translateY(-50%) rotate(30deg);
+  top: 50%; }
+  .number-2 span {
+    transform: rotate(240deg); }
+
+.number-3 {
+  text-align: center;
+  line-height: 20px;
+  font-size: 1.2rem;
+  transform: translateY(-50%) rotate(60deg);
+  top: 50%; }
+  .number-3 span {
+    transform: rotate(210deg); }
+
+.number-4 {
+  text-align: center;
+  line-height: 20px;
+  font-size: 1.2rem;
+  transform: translateY(-50%) rotate(90deg);
+  top: 50%; }
+  .number-4 span {
+    transform: rotate(180deg); }
+
+.number-5 {
+  text-align: center;
+  line-height: 20px;
+  font-size: 1.2rem;
+  transform: translateY(-50%) rotate(120deg);
+  top: 50%; }
+  .number-5 span {
+    transform: rotate(150deg); }
+
+.number-6 {
+  text-align: center;
+  line-height: 20px;
+  font-size: 1.2rem;
+  transform: translateY(-50%) rotate(150deg);
+  top: 50%; }
+  .number-6 span {
+    transform: rotate(120deg); }
+
+.number-7 {
+  text-align: center;
+  line-height: 20px;
+  font-size: 1.2rem;
+  transform: translateY(-50%) rotate(180deg);
+  top: 50%; }
+  .number-7 span {
+    transform: rotate(90deg); }
+
+.number-8 {
+  text-align: center;
+  line-height: 20px;
+  font-size: 1.2rem;
+  transform: translateY(-50%) rotate(210deg);
+  top: 50%; }
+  .number-8 span {
+    transform: rotate(60deg); }
+
+.number-9 {
+  text-align: center;
+  line-height: 20px;
+  font-size: 1.2rem;
+  transform: translateY(-50%) rotate(240deg);
+  top: 50%; }
+  .number-9 span {
+    transform: rotate(30deg); }
+
+.number-10 {
+  text-align: center;
+  line-height: 20px;
+  font-size: 1.2rem;
+  transform: translateY(-50%) rotate(270deg);
+  top: 50%; }
+  .number-10 span {
+    transform: rotate(0deg); }
+
+.number-11 {
+  text-align: center;
+  line-height: 20px;
+  font-size: 1.2rem;
+  transform: translateY(-50%) rotate(300deg);
+  top: 50%; }
+  .number-11 span {
+    transform: rotate(-30deg); }
+
+.number-12 {
+  text-align: center;
+  line-height: 20px;
+  font-size: 1.2rem;
+  transform: translateY(-50%) rotate(330deg);
+  top: 50%; }
+  .number-12 span {
+    transform: rotate(-60deg); }
+
+.absolute {
+  position: absolute; }
+
+.fullWidth {
+  width: 100%;
+  height: 100%; }
+
+.center {
+  left: 50%;
+  top: 50%; }
+
+.second::after {
+  width: 2px;
+  height: 120px;
+  background: black;
+  position: absolute;
+  top: 34px; }
+
+.minute::after {
+  width: 3px;
+  height: 100px;
+  background: #333;
+  top: 54px; }
+
+.hour::after {
+  width: 5px;
+  height: 80px;
+  background: #ddd;
+  top: 74px; }
+
+.niddle {
+  width: 100%;
+  height: 100%;
+  transform-origin: 50% 50%; }
+  .niddle:after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); }
+  .niddle .minute {
+    transform: rotate(0); }
+
+.digital {
+  position: absolute;
+  left: 50%;
+  bottom: 30%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem; }
